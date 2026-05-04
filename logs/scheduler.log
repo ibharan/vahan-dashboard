@@ -1,0 +1,20 @@
+2026-05-03 14:10:42,776 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-03 14:10:42,778 [INFO] === Pipeline started ===
+2026-05-03 14:10:53,363 [INFO] set_select(yaxisVar, 'Vehicle Category'): OK:Vehicle Category
+2026-05-03 14:10:57,374 [INFO] set_select(xaxisVar, 'Month Wise'): OK:Month Wise
+2026-05-03 14:10:59,388 [INFO] set_select(vchgroupTable:selectCatgGrp, 'TWO WHEELER'): OK:TWO WHEELER
+2026-05-03 14:11:01,397 [INFO] set_select(selectedYearType, 'Calendar Year'): OK:Calendar Year
+2026-05-03 14:11:04,909 [INFO] set_select(j_idt39, 'All Vahan4 Running States'): NO_SELECT:j_idt39_input
+2026-05-03 14:11:04,927 [INFO] set_select(selectedYear, '2025'): OK:2025
+2026-05-03 14:11:06,979 [INFO] Refresh clicked
+2026-05-03 14:12:01,354 [INFO] Headers: ['S No', 'Vehicle Category', 'Month Wise', 'TOTAL', 'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
+2026-05-03 14:12:11,587 [INFO] set_select(selectedYear, '2026'): OK:2026
+2026-05-03 14:12:13,700 [INFO] Refresh clicked
+2026-05-03 14:13:07,657 [INFO] Headers: ['S No', 'Vehicle Category', 'Month Wise', 'TOTAL', 'JAN', 'FEB', 'MAR', 'APR', 'MAY']
+2026-05-03 14:13:14,670 [INFO] Total: 33 rows
+2026-05-03 14:13:18,798 [INFO] Saved 82 records \u2192 data/vahan_raw.csv
+2026-05-03 14:13:18,815 [INFO] Loaded 82 raw rows from data/vahan_raw.csv
+2026-05-03 14:13:18,915 [INFO] Processed 93 rows \u2192 data/vahan_processed.csv
+2026-05-03 14:13:18,941 [INFO] === Pipeline complete in 156s ===
+2026-05-03 14:13:18,942 [INFO] Added job "VAHAN Daily Scrape" to job store "default"
+2026-05-03 14:13:18,943 [INFO] Scheduler started

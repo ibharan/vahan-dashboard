@@ -1,0 +1,1616 @@
+2026-04-28 17:09:53,353 [INFO] ====== WebDriver manager ======
+2026-04-28 17:09:54,809 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-28 17:09:55,329 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-28 17:09:55,716 [INFO] There is no [win64] chromedriver "147.0.7727.117" for browser google-chrome "147.0.7727" in cache
+2026-04-28 17:09:55,716 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-28 17:09:56,569 [INFO] WebDriver version 147.0.7727.117 selected
+2026-04-28 17:09:56,573 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/win32/chromedriver-win32.zip
+2026-04-28 17:09:56,573 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/win32/chromedriver-win32.zip
+2026-04-28 17:09:57,588 [INFO] Driver downloading response is 200
+2026-04-28 17:09:59,199 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-28 17:09:59,622 [INFO] Driver has been saved in cache [C:\Users\ibharan\.wdm\drivers\chromedriver\win64\147.0.7727.117]
+2026-04-28 17:11:55,774 [INFO] Scraping: April 2026, state=All India
+2026-04-28 17:12:16,814 [WARNING] safe_select(j_idt31:yaxisVar, Vehicle Category) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:12:38,916 [WARNING] safe_select(j_idt31:yaxisVar, Vehicle Category) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:13:00,949 [WARNING] safe_select(j_idt31:yaxisVar, Vehicle Category) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:13:23,021 [WARNING] safe_select(j_idt31:xaxisVar, Month) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:13:45,086 [WARNING] safe_select(j_idt31:xaxisVar, Month) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:14:07,159 [WARNING] safe_select(j_idt31:xaxisVar, Month) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:14:29,215 [WARNING] safe_select(j_idt31:selectedYear, 2026) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:14:51,316 [WARNING] safe_select(j_idt31:selectedYear, 2026) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:15:13,362 [WARNING] safe_select(j_idt31:selectedYear, 2026) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:15:35,448 [WARNING] safe_select(j_idt31:selectedState, All India) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:15:57,532 [WARNING] safe_select(j_idt31:selectedState, All India) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:16:19,612 [WARNING] safe_select(j_idt31:selectedState, All India) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:16:41,733 [ERROR] scrape_month failed (April 2026 All India): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+Traceback (most recent call last):
+  File "C:\Users\ibharan\OneDrive - amazon.com\Desktop\Business Analyst\KIRO\vahan_dashboard\scraper.py", line 156, in scrape_month
+    btn = wait_clickable(driver, By.ID, ELEM["refresh"])
+  File "C:\Users\ibharan\OneDrive - amazon.com\Desktop\Business Analyst\KIRO\vahan_dashboard\scraper.py", line 76, in wait_clickable
+    return WebDriverWait(driver, timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.element_to_be_clickable((by, selector))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ibharan\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:16:43,738 [INFO] Scraping: March 2026, state=All India
+2026-04-28 17:19:07,041 [INFO] Loading VAHAN URL: https://vahan.parivahan.gov.in/vahan4dashboard/vahan/view/reportview.xhtml
+2026-04-28 17:19:14,927 [INFO] Page title: VAHAN SEWA| DASHBOARD
+2026-04-28 17:19:14,928 [INFO] Scraping: April 2026, state=All India
+2026-04-28 17:19:36,044 [WARNING] safe_select(j_idt31:yaxisVar, Vehicle Category) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:19:58,106 [WARNING] safe_select(j_idt31:yaxisVar, Vehicle Category) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:20:20,205 [WARNING] safe_select(j_idt31:yaxisVar, Vehicle Category) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:20:42,259 [WARNING] safe_select(j_idt31:xaxisVar, Month) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:21:04,364 [WARNING] safe_select(j_idt31:xaxisVar, Month) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:21:26,408 [WARNING] safe_select(j_idt31:xaxisVar, Month) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:21:48,472 [WARNING] safe_select(j_idt31:selectedYear, 2026) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:22:10,540 [WARNING] safe_select(j_idt31:selectedYear, 2026) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:22:32,590 [WARNING] safe_select(j_idt31:selectedYear, 2026) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:22:54,652 [WARNING] safe_select(j_idt31:selectedState, All India) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:23:16,698 [WARNING] safe_select(j_idt31:selectedState, All India) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:23:38,787 [WARNING] safe_select(j_idt31:selectedState, All India) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:24:00,822 [ERROR] scrape_month failed (April 2026 All India): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+Traceback (most recent call last):
+  File "C:\Users\ibharan\OneDrive - amazon.com\Desktop\Business Analyst\KIRO\vahan_dashboard\scraper.py", line 156, in scrape_month
+    btn = wait_clickable(driver, By.ID, ELEM["refresh"])
+  File "C:\Users\ibharan\OneDrive - amazon.com\Desktop\Business Analyst\KIRO\vahan_dashboard\scraper.py", line 76, in wait_clickable
+    return WebDriverWait(driver, timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.element_to_be_clickable((by, selector))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ibharan\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:24:02,826 [INFO] Scraping: March 2026, state=All India
+2026-04-28 17:24:23,914 [WARNING] safe_select(j_idt31:yaxisVar, Vehicle Category) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:24:45,980 [WARNING] safe_select(j_idt31:yaxisVar, Vehicle Category) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:25:08,072 [WARNING] safe_select(j_idt31:yaxisVar, Vehicle Category) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:25:30,152 [WARNING] safe_select(j_idt31:xaxisVar, Month) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:25:52,290 [WARNING] safe_select(j_idt31:xaxisVar, Month) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:26:14,417 [WARNING] safe_select(j_idt31:xaxisVar, Month) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:26:36,501 [WARNING] safe_select(j_idt31:selectedYear, 2026) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:26:58,569 [WARNING] safe_select(j_idt31:selectedYear, 2026) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:27:20,687 [WARNING] safe_select(j_idt31:selectedYear, 2026) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:27:42,761 [WARNING] safe_select(j_idt31:selectedState, All India) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:28:04,887 [WARNING] safe_select(j_idt31:selectedState, All India) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:28:27,005 [WARNING] safe_select(j_idt31:selectedState, All India) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:28:49,120 [ERROR] scrape_month failed (March 2026 All India): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+Traceback (most recent call last):
+  File "C:\Users\ibharan\OneDrive - amazon.com\Desktop\Business Analyst\KIRO\vahan_dashboard\scraper.py", line 156, in scrape_month
+    btn = wait_clickable(driver, By.ID, ELEM["refresh"])
+  File "C:\Users\ibharan\OneDrive - amazon.com\Desktop\Business Analyst\KIRO\vahan_dashboard\scraper.py", line 76, in wait_clickable
+    return WebDriverWait(driver, timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.element_to_be_clickable((by, selector))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ibharan\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:28:51,122 [INFO] Scraping: February 2026, state=All India
+2026-04-28 17:29:12,221 [WARNING] safe_select(j_idt31:yaxisVar, Vehicle Category) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:29:34,284 [WARNING] safe_select(j_idt31:yaxisVar, Vehicle Category) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:29:56,351 [WARNING] safe_select(j_idt31:yaxisVar, Vehicle Category) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:30:18,419 [WARNING] safe_select(j_idt31:xaxisVar, Month) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:30:40,500 [WARNING] safe_select(j_idt31:xaxisVar, Month) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:31:02,586 [WARNING] safe_select(j_idt31:xaxisVar, Month) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:31:24,667 [WARNING] safe_select(j_idt31:selectedYear, 2026) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:31:46,783 [WARNING] safe_select(j_idt31:selectedYear, 2026) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:32:08,921 [WARNING] safe_select(j_idt31:selectedYear, 2026) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:32:30,978 [WARNING] safe_select(j_idt31:selectedState, All India) attempt 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:32:53,091 [WARNING] safe_select(j_idt31:selectedState, All India) attempt 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:33:15,161 [WARNING] safe_select(j_idt31:selectedState, All India) attempt 3: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:33:37,260 [ERROR] scrape_month failed (February 2026 All India): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+Traceback (most recent call last):
+  File "C:\Users\ibharan\OneDrive - amazon.com\Desktop\Business Analyst\KIRO\vahan_dashboard\scraper.py", line 156, in scrape_month
+    btn = wait_clickable(driver, By.ID, ELEM["refresh"])
+  File "C:\Users\ibharan\OneDrive - amazon.com\Desktop\Business Analyst\KIRO\vahan_dashboard\scraper.py", line 76, in wait_clickable
+    return WebDriverWait(driver, timeout).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.element_to_be_clickable((by, selector))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ibharan\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7203ca8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff7203ca950+14eb0]
+	chromedriver!(No symbol) [0x7ff72013d6ed]
+	chromedriver!(No symbol) [0x7ff720196cfe]
+	chromedriver!(No symbol) [0x7ff72019700c]
+	chromedriver!(No symbol) [0x7ff7201e7cb7]
+	chromedriver!(No symbol) [0x7ff7201e483b]
+	chromedriver!(No symbol) [0x7ff7201890e8]
+	chromedriver!(No symbol) [0x7ff720189fc3]
+	chromedriver!GetHandleVerifier [0x7ff7206e0149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff7206da715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff7206fc012+346572]
+	chromedriver!GetHandleVerifier [0x7ff7203e7cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff7203f087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff7203d40e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff7203d4296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff7203b8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffdbc08e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdbc88c3fc+2c]
+
+2026-04-28 17:33:41,870 [WARNING] No records scraped
+2026-04-28 17:33:46,007 [WARNING] Raw file not found: data/vahan_raw.csv
+2026-04-28 17:42:41,891 [INFO] Page title: VAHAN SEWA| DASHBOARD
+2026-04-28 17:42:41,959 [INFO] Select id=j_idt26_input options=['', '', '', '']
+2026-04-28 17:42:42,312 [INFO] Select id=j_idt34_input options=['', '', '', '', '', '']
+2026-04-28 17:42:42,331 [INFO] Select id=selectedRto_input options=['']
+2026-04-28 17:42:42,385 [INFO] Select id=yaxisVar_input options=['', '', '', '', '', '']
+2026-04-28 17:42:42,472 [INFO] Select id=xaxisVar_input options=['', '', '', '', '', '']
+2026-04-28 17:42:42,537 [INFO] Select id=selectedYearType_input options=['', '', '']
+2026-04-28 17:42:42,825 [INFO] Select id=selectedYear_input options=['', '', '', '', '', '']
+2026-04-28 17:42:42,909 [INFO] Select id=vchgroupTable:selectCatgGrp_input options=['', '', '', '', '', '']
+2026-04-28 17:42:42,919 [INFO] Mapped: y_axis=None, x_axis=None, year=None, state=None
+2026-04-28 17:42:49,274 [WARNING] Raw file not found: data/vahan_raw.csv
+2026-04-28 17:47:08,625 [WARNING] get_panel_options(yaxisVar): Message: 
+
+2026-04-28 17:47:17,975 [WARNING] get_panel_options(xaxisVar): Message: 
+
+2026-04-28 17:47:27,330 [WARNING] get_panel_options(selectedYear): Message: 
+
+2026-04-28 17:47:36,606 [WARNING] get_panel_options(j_idt26): Message: 
+
+2026-04-28 17:47:36,607 [INFO] yaxis=[], xaxis=[], year=[], state=[]
+2026-04-28 17:47:43,354 [WARNING] Raw file not found: data/vahan_raw.csv
+2026-04-30 17:17:45,113 [WARNING] get_panel_options(yaxisVar): Message: 
+
+2026-04-30 17:17:54,207 [WARNING] get_panel_options(xaxisVar): Message: 
+
+2026-04-30 17:18:03,370 [WARNING] get_panel_options(selectedYear): Message: 
+
+2026-04-30 17:18:14,494 [WARNING] get_panel_options(j_idt26): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff64616a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff64616a950+14eb0]
+	chromedriver!(No symbol) [0x7ff645edd6ed]
+	chromedriver!(No symbol) [0x7ff645f36cfe]
+	chromedriver!(No symbol) [0x7ff645f3700c]
+	chromedriver!(No symbol) [0x7ff645f87cb7]
+	chromedriver!(No symbol) [0x7ff645f8483b]
+	chromedriver!(No symbol) [0x7ff645f290e8]
+	chromedriver!(No symbol) [0x7ff645f29fc3]
+	chromedriver!GetHandleVerifier [0x7ff646480149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff64647a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff64649c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff646187cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff64619087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6461740e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff646174296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff646158737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff9c037e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9c136c3fc+2c]
+
+2026-04-30 17:18:14,495 [INFO] yaxis=[], xaxis=[], year=[], state=[]
+2026-04-30 17:18:21,002 [WARNING] Raw file not found: data/vahan_raw.csv
+2026-05-03 13:46:55,146 [WARNING] pf_select attempt 1 (j_idt29='Actual Value'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff60392a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff60392a950+14eb0]
+	chromedriver!(No symbol) [0x7ff60369d6ed]
+	chromedriver!(No symbol) [0x7ff6036f6cfe]
+	chromedriver!(No symbol) [0x7ff6036f700c]
+	chromedriver!(No symbol) [0x7ff603747cb7]
+	chromedriver!(No symbol) [0x7ff60374483b]
+	chromedriver!(No symbol) [0x7ff6036e90e8]
+	chromedriver!(No symbol) [0x7ff6036e9fc3]
+	chromedriver!GetHandleVerifier [0x7ff603c40149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff603c3a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff603c5c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff603947cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff60395087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6039340e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff603934296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff603918737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff9c037e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9c136c3fc+2c]
+
+2026-05-03 13:47:11,784 [WARNING] pf_select attempt 2 (j_idt29='Actual Value'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff60392a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff60392a950+14eb0]
+	chromedriver!(No symbol) [0x7ff60369d6ed]
+	chromedriver!(No symbol) [0x7ff6036f6cfe]
+	chromedriver!(No symbol) [0x7ff6036f700c]
+	chromedriver!(No symbol) [0x7ff603747cb7]
+	chromedriver!(No symbol) [0x7ff60374483b]
+	chromedriver!(No symbol) [0x7ff6036e90e8]
+	chromedriver!(No symbol) [0x7ff6036e9fc3]
+	chromedriver!GetHandleVerifier [0x7ff603c40149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff603c3a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff603c5c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff603947cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff60395087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6039340e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff603934296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff603918737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff9c037e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9c136c3fc+2c]
+
+2026-05-03 13:47:28,412 [WARNING] pf_select attempt 3 (j_idt29='Actual Value'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff60392a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff60392a950+14eb0]
+	chromedriver!(No symbol) [0x7ff60369d6ed]
+	chromedriver!(No symbol) [0x7ff6036f6cfe]
+	chromedriver!(No symbol) [0x7ff6036f700c]
+	chromedriver!(No symbol) [0x7ff603747cb7]
+	chromedriver!(No symbol) [0x7ff60374483b]
+	chromedriver!(No symbol) [0x7ff6036e90e8]
+	chromedriver!(No symbol) [0x7ff6036e9fc3]
+	chromedriver!GetHandleVerifier [0x7ff603c40149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff603c3a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff603c5c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff603947cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff60395087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6039340e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff603934296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff603918737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff9c037e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9c136c3fc+2c]
+
+2026-05-03 13:47:29,913 [ERROR] pf_select failed after 3 attempts: j_idt29='Actual Value'
+2026-05-03 13:47:39,371 [WARNING] pf_select attempt 1 (yaxisVar='Vehicle Category'): Message: 
+
+2026-05-03 13:47:50,261 [WARNING] pf_select attempt 2 (yaxisVar='Vehicle Category'): Message: 
+
+2026-05-03 13:48:01,161 [WARNING] pf_select attempt 3 (yaxisVar='Vehicle Category'): Message: 
+
+2026-05-03 13:48:02,662 [ERROR] pf_select failed after 3 attempts: yaxisVar='Vehicle Category'
+2026-05-03 13:48:14,267 [WARNING] pf_get_options(xaxisVar): Message: 
+
+2026-05-03 13:48:23,537 [WARNING] pf_select attempt 1 (vchgroupTable:selectCatgGrp='TWO WHEELER'): Message: 
+
+2026-05-03 13:48:34,767 [WARNING] pf_select attempt 2 (vchgroupTable:selectCatgGrp='TWO WHEELER'): Message: 
+
+2026-05-03 13:48:46,009 [WARNING] pf_select attempt 3 (vchgroupTable:selectCatgGrp='TWO WHEELER'): Message: 
+
+2026-05-03 13:48:47,510 [ERROR] pf_select failed after 3 attempts: vchgroupTable:selectCatgGrp='TWO WHEELER'
+2026-05-03 13:48:56,773 [WARNING] pf_select attempt 1 (selectedYearType='Select Year'): Message: 
+
+2026-05-03 13:49:07,547 [WARNING] pf_select attempt 2 (selectedYearType='Select Year'): Message: 
+
+2026-05-03 13:49:18,821 [WARNING] pf_select attempt 3 (selectedYearType='Select Year'): Message: 
+
+2026-05-03 13:49:20,322 [ERROR] pf_select failed after 3 attempts: selectedYearType='Select Year'
+2026-05-03 13:49:36,338 [WARNING] pf_select attempt 1 (j_idt39='All Vahan4 Running States (36/36)'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff60392a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff60392a950+14eb0]
+	chromedriver!(No symbol) [0x7ff60369d6ed]
+	chromedriver!(No symbol) [0x7ff6036f6cfe]
+	chromedriver!(No symbol) [0x7ff6036f700c]
+	chromedriver!(No symbol) [0x7ff603747cb7]
+	chromedriver!(No symbol) [0x7ff60374483b]
+	chromedriver!(No symbol) [0x7ff6036e90e8]
+	chromedriver!(No symbol) [0x7ff6036e9fc3]
+	chromedriver!GetHandleVerifier [0x7ff603c40149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff603c3a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff603c5c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff603947cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff60395087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6039340e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff603934296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff603918737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff9c037e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9c136c3fc+2c]
+
+2026-05-03 13:49:52,891 [WARNING] pf_select attempt 2 (j_idt39='All Vahan4 Running States (36/36)'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff60392a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff60392a950+14eb0]
+	chromedriver!(No symbol) [0x7ff60369d6ed]
+	chromedriver!(No symbol) [0x7ff6036f6cfe]
+	chromedriver!(No symbol) [0x7ff6036f700c]
+	chromedriver!(No symbol) [0x7ff603747cb7]
+	chromedriver!(No symbol) [0x7ff60374483b]
+	chromedriver!(No symbol) [0x7ff6036e90e8]
+	chromedriver!(No symbol) [0x7ff6036e9fc3]
+	chromedriver!GetHandleVerifier [0x7ff603c40149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff603c3a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff603c5c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff603947cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff60395087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6039340e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff603934296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff603918737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff9c037e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9c136c3fc+2c]
+
+2026-05-03 13:50:09,543 [WARNING] pf_select attempt 3 (j_idt39='All Vahan4 Running States (36/36)'): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff60392a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff60392a950+14eb0]
+	chromedriver!(No symbol) [0x7ff60369d6ed]
+	chromedriver!(No symbol) [0x7ff6036f6cfe]
+	chromedriver!(No symbol) [0x7ff6036f700c]
+	chromedriver!(No symbol) [0x7ff603747cb7]
+	chromedriver!(No symbol) [0x7ff60374483b]
+	chromedriver!(No symbol) [0x7ff6036e90e8]
+	chromedriver!(No symbol) [0x7ff6036e9fc3]
+	chromedriver!GetHandleVerifier [0x7ff603c40149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff603c3a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff603c5c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff603947cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff60395087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6039340e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff603934296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff603918737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff9c037e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9c136c3fc+2c]
+
+2026-05-03 13:50:11,044 [ERROR] pf_select failed after 3 attempts: j_idt39='All Vahan4 Running States (36/36)'
+2026-05-03 13:50:20,888 [WARNING] pf_select attempt 1 (selectedYear='2026'): Message: 
+
+2026-05-03 13:50:31,734 [WARNING] pf_select attempt 2 (selectedYear='2026'): Message: 
+
+2026-05-03 13:50:42,540 [WARNING] pf_select attempt 3 (selectedYear='2026'): Message: 
+
+2026-05-03 13:50:44,042 [ERROR] pf_select failed after 3 attempts: selectedYear='2026'
+2026-05-03 13:50:44,153 [INFO] Refresh clicked
+2026-05-03 13:50:51,925 [ERROR] pf_select_js(j_idt29, 'Actual Value'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="j_idt29"]"}
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff60392a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff60392a950+14eb0]
+	chromedriver!(No symbol) [0x7ff60369d6ed]
+	chromedriver!(No symbol) [0x7ff6036f6cfe]
+	chromedriver!(No symbol) [0x7ff6036f700c]
+	chromedriver!(No symbol) [0x7ff603747cb7]
+	chromedriver!(No symbol) [0x7ff60374483b]
+	chromedriver!(No symbol) [0x7ff6036e90e8]
+	chromedriver!(No symbol) [0x7ff6036e9fc3]
+	chromedriver!GetHandleVerifier [0x7ff603c40149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff603c3a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff603c5c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff603947cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff60395087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6039340e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff603934296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff603918737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff9c037e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9c136c3fc+2c]
+
+2026-05-03 13:50:53,256 [INFO] pf_select_js(yaxisVar, 'Vehicle Category'): OK:Vehicle Category
+2026-05-03 13:50:57,746 [INFO] pf_select_js(xaxisVar, 'Month Wise'): OK:Month Wise
+2026-05-03 13:51:00,217 [INFO] pf_select_js(vchgroupTable:selectCatgGrp, 'TWO WHEELER'): OK:TWO WHEELER
+2026-05-03 13:51:02,683 [INFO] pf_select_js(selectedYearType, 'Select Year'): NOT_FOUND:Select|Financial Year|Calendar Year
+2026-05-03 13:51:06,210 [INFO] pf_select_js(selectedYear, '2026'): OK:2026
+2026-05-03 13:51:07,437 [ERROR] pf_select_js(j_idt39, 'All Vahan4 Running States'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="j_idt39"]"}
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff60392a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff60392a950+14eb0]
+	chromedriver!(No symbol) [0x7ff60369d6ed]
+	chromedriver!(No symbol) [0x7ff6036f6cfe]
+	chromedriver!(No symbol) [0x7ff6036f700c]
+	chromedriver!(No symbol) [0x7ff603747cb7]
+	chromedriver!(No symbol) [0x7ff60374483b]
+	chromedriver!(No symbol) [0x7ff6036e90e8]
+	chromedriver!(No symbol) [0x7ff6036e9fc3]
+	chromedriver!GetHandleVerifier [0x7ff603c40149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff603c3a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff603c5c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff603947cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff60395087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6039340e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff603934296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff603918737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff9c037e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9c136c3fc+2c]
+
+2026-05-03 13:51:07,555 [INFO] Refresh clicked
+2026-05-03 13:51:20,445 [ERROR] Timed out waiting for table
+2026-05-03 13:51:29,309 [WARNING] Raw file not found: data/vahan_raw.csv
+2026-05-03 13:51:50,939 [WARNING] Raw file not found: data/vahan_raw.csv
+2026-05-03 13:54:30,283 [INFO] set_select(j_idt29, 'Actual Value'): NO_SELECT:j_idt29_input
+2026-05-03 13:54:30,295 [INFO] set_select(j_idt39, 'All Vahan4 Running States'): NO_SELECT:j_idt39_input
+2026-05-03 13:54:30,317 [INFO] set_select(yaxisVar, 'Vehicle Category'): OK:Vehicle Category
+2026-05-03 13:54:34,337 [INFO] set_select(xaxisVar, 'Month Wise'): OK:Month Wise
+2026-05-03 13:54:36,359 [INFO] set_select(vchgroupTable:selectCatgGrp, 'TWO WHEELER'): OK:TWO WHEELER
+2026-05-03 13:54:38,373 [INFO] set_select(selectedYearType, 'Select Year'): NOT_FOUND:Select|Financial Year|Calendar Year
+2026-05-03 13:54:38,391 [INFO] set_select(selectedYearType, 'Calendar Year'): OK:Calendar Year
+2026-05-03 13:54:41,911 [INFO] set_select(selectedYear, '2026'): OK:2026
+2026-05-03 13:54:44,010 [INFO] Refresh clicked
+2026-05-03 13:55:29,089 [WARNING] Raw file not found: data/vahan_raw.csv
+2026-05-03 13:58:19,911 [INFO] set_select(j_idt29, 'Actual Value'): NO_SELECT:j_idt29_input
+2026-05-03 13:58:19,919 [INFO] set_select(j_idt39, 'All Vahan4 Running States'): NO_SELECT:j_idt39_input
+2026-05-03 13:58:19,930 [INFO] set_select(yaxisVar, 'Vehicle Category'): OK:Vehicle Category
+2026-05-03 13:58:23,947 [INFO] set_select(xaxisVar, 'Month Wise'): OK:Month Wise
+2026-05-03 13:58:25,973 [INFO] set_select(vchgroupTable:selectCatgGrp, 'TWO WHEELER'): OK:TWO WHEELER
+2026-05-03 13:58:27,989 [INFO] set_select(selectedYearType, 'Select Year'): NOT_FOUND:Select|Financial Year|Calendar Year
+2026-05-03 13:58:28,006 [INFO] set_select(selectedYearType, 'Calendar Year'): OK:Calendar Year
+2026-05-03 13:58:31,529 [INFO] set_select(selectedYear, '2026'): OK:2026
+2026-05-03 13:58:33,679 [INFO] Refresh clicked
+2026-05-03 13:59:23,059 [WARNING] Raw file not found: data/vahan_raw.csv
+2026-05-03 14:01:01,331 [INFO] set_select(j_idt29, 'Actual Value'): NO_SELECT:j_idt29_input
+2026-05-03 14:01:01,343 [INFO] set_select(j_idt39, 'All Vahan4 Running States'): NO_SELECT:j_idt39_input
+2026-05-03 14:01:01,352 [INFO] set_select(yaxisVar, 'Vehicle Category'): OK:Vehicle Category
+2026-05-03 14:01:05,369 [INFO] set_select(xaxisVar, 'Month Wise'): OK:Month Wise
+2026-05-03 14:01:07,391 [INFO] set_select(vchgroupTable:selectCatgGrp, 'TWO WHEELER'): OK:TWO WHEELER
+2026-05-03 14:01:09,403 [INFO] set_select(selectedYearType, 'Select Year'): NOT_FOUND:Select|Financial Year|Calendar Year
+2026-05-03 14:01:09,417 [INFO] set_select(selectedYearType, 'Calendar Year'): OK:Calendar Year
+2026-05-03 14:01:12,935 [INFO] set_select(selectedYear, '2026'): OK:2026
+2026-05-03 14:01:15,003 [INFO] Refresh clicked
+2026-05-03 14:02:08,777 [INFO] Headers: ['S No', 'Vehicle Category', 'Month Wise', 'TOTAL', 'JAN', 'FEB', 'MAR', 'APR', 'MAY']
+2026-05-03 14:02:13,848 [INFO] Total: 16 rows
+2026-05-03 14:02:17,935 [INFO] Saved 16 records \u2192 data/vahan_raw.csv
+2026-05-03 14:02:17,959 [INFO] Loaded 16 raw rows from data/vahan_raw.csv
+2026-05-03 14:02:17,995 [INFO] Processed 12 rows \u2192 data/vahan_processed.csv
+2026-05-03 14:04:34,274 [INFO] set_select(yaxisVar, 'Vehicle Category'): OK:Vehicle Category
+2026-05-03 14:04:38,285 [INFO] set_select(xaxisVar, 'Month Wise'): OK:Month Wise
+2026-05-03 14:04:40,302 [INFO] set_select(vchgroupTable:selectCatgGrp, 'TWO WHEELER'): OK:TWO WHEELER
+2026-05-03 14:04:42,313 [INFO] set_select(selectedYearType, 'Calendar Year'): OK:Calendar Year
+2026-05-03 14:04:45,824 [INFO] set_select(j_idt39, 'All Vahan4 Running States'): NO_SELECT:j_idt39_input
+2026-05-03 14:04:45,836 [INFO] set_select(selectedYear, '2025'): OK:2025
+2026-05-03 14:04:47,917 [INFO] Refresh clicked
+2026-05-03 14:05:41,788 [INFO] Headers: ['S No', 'Vehicle Category', 'Month Wise', 'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG']
+2026-05-03 14:05:50,167 [INFO] set_select(selectedYear, '2026'): OK:2026
+2026-05-03 14:05:52,279 [INFO] Refresh clicked
+2026-05-03 14:06:46,002 [INFO] Headers: ['S No', 'Vehicle Category', 'Month Wise', 'TOTAL', 'JAN', 'FEB', 'MAR', 'APR', 'MAY']
+2026-05-03 14:06:54,358 [INFO] Total: 33 rows
+2026-05-03 14:06:58,461 [INFO] Saved 49 records \u2192 data/vahan_raw.csv
+2026-05-03 14:06:58,466 [INFO] Loaded 49 raw rows from data/vahan_raw.csv
+2026-05-03 14:06:58,490 [INFO] Processed 48 rows \u2192 data/vahan_processed.csv

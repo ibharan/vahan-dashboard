@@ -1,0 +1,29 @@
+# VAHAN Dashboard Configuration
+
+vahan:
+  base_url: "https://vahan.parivahan.gov.in/vahan4dashboard/vahan/view/reportview.xhtml"
+  two_wheeler_category: "TWO WHEELER"
+  # Years to scrape on each run
+  years: [2025, 2026]
+  # States to scrape — empty = All India aggregate
+  states: []
+  headless: true
+  page_load_timeout: 30
+  implicit_wait: 10
+
+data:
+  output_dir: "data"
+  raw_file: "data/vahan_raw.csv"
+  processed_file: "data/vahan_processed.csv"
+  # Drop your internal Amazon online sales export here
+  # Required columns: date (YYYY-MM-DD), amazon_online_units (integer)
+  amazon_file: "data/amazon_online_sales.csv"
+
+scheduler:
+  # Cron: run daily at 8:00 AM IST
+  hour: 8
+  minute: 0
+
+dashboard:
+  title: "2-Wheeler Offline Sales Dashboard (VAHAN)"
+  amazon_gl: "Automotive"
