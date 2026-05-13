@@ -65,110 +65,107 @@ def process(raw_path: str = RAW_FILE, out_path: str = PROCESSED_FILE) -> pd.Data
     # Normalize column names
     df.columns = [c.strip().lower().replace(" ", "_") for c in df.columns]
 
-    # Identify the vehicle category column
+    # ── DEDUP: keep only the latest scrape run per _year ─────────────────
+    if "_scraped_at" in df.columns and "_year" in df.columns:
+        df["_scraped_at"] = pd.to_datetime(df["_scraped_at"], errors="coerce")
+        df["_scrape_run"] = df["_scraped_at"].dt.floor("min")
+        latest_run_per_year = df.groupby("_year")["_scrape_run"].transform("max")
+        df = df[df["_scrape_run"] == latest_run_per_year].copy()
+        log.info(f"After dedup (latest scrape per year): {len(df)} rows")
+        print(f"[INFO] Using latest scrape per year: {len(df)} rows")
+
+    # ── Filter to 2-wheeler rows only ────────────────────────────────────
     cat_col = next((c for c in df.columns if "vehicle" in c and "category" in c), None)
-    if cat_col is None:
-        cat_col = next((c for c in df.columns if "category" in c), None)
+    if cat_col and cat_col in df.columns:
+        df = df[df[cat_col].apply(is_two_wheeler)].copy()
+        print(f"[INFO] 2-wheeler rows: {len(df)}")
 
-    # Identify month and count columns
-    # VAHAN table is typically wide: Vehicle Category | Jan | Feb | ... | Total
-    meta_cols = {"_year", "_month", "_state", "_scraped_at", "scraped_year",
-                 "scraped_month", "state_filter", "scrape_timestamp"}
-    if cat_col:
-        meta_cols.add(cat_col)
+    # ── Identify pure month columns (jan-dec), exclude total & meta ──────
+    # The raw CSV has columns like: jan, feb, mar, apr, _year, _state, _scraped_at, may, jun...
+    # We must exclude: s_no, vehicle_category, month_wise, total, and all _ prefixed cols
+    MONTH_NAMES = {"jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"}
+    NON_DATA_COLS = {"s_no", "month_wise", "total", "_year", "_state", "_scraped_at",
+                     "_scrape_run", cat_col}
 
-    month_cols = [
-        c for c in df.columns
-        if c.lower().rstrip("_0123456789") in MONTH_MAP and c not in meta_cols
-    ]
-    total_cols = [c for c in df.columns if "total" in c and c not in meta_cols]
+    month_cols = [c for c in df.columns
+                  if c.lower() in MONTH_NAMES and c not in NON_DATA_COLS]
+    print(f"[INFO] Month columns found: {month_cols}")
 
-    # Prefer month columns for granularity; fall back to total
-    value_cols = month_cols if month_cols else total_cols
+    if not month_cols:
+        print("[WARN] No month columns found in raw data")
+        return pd.DataFrame()
 
-    id_vars = [c for c in df.columns if c in meta_cols or c == cat_col]
-    id_vars = list(dict.fromkeys(id_vars))  # deduplicate, preserve order
+    # ── Process each year separately to handle column layout differences ──
+    # NOTE: Due to a scraper column-shift bug, 2026 data is offset:
+    # 'Month Wise' = Jan, 'TOTAL' = Feb, 'JAN' = Mar, 'FEB' = Apr, 'MAR' = May, 'APR' = YTD Total
+    # For 2025, columns are correct: JAN=Jan, FEB=Feb, ... NOV=YTD Total
 
-    if value_cols:
-        df_long = df.melt(
-            id_vars=[c for c in id_vars if c in df.columns],
-            value_vars=[c for c in value_cols if c in df.columns],
-            var_name="month_col",
-            value_name="registrations_raw",
-        )
-        # Map month column name → month number
-        df_long["month_num"] = df_long["month_col"].str.lower().str.rstrip("_0123456789").map(MONTH_MAP)
-    else:
-        df_long = df.copy()
-        df_long["month_col"] = df_long.get("_month", "")
-        df_long["month_num"] = df_long["month_col"].str.lower().map(MONTH_MAP)
-        df_long["registrations_raw"] = df_long.get(
-            next((c for c in df.columns if c not in meta_cols and c != cat_col), None), np.nan
-        )
-
-    # Clean numeric
-    df_long["registrations"] = df_long["registrations_raw"].apply(clean_number)
-
-    # Build date: year from _year col, month from month_num
-    year_col = "_year" if "_year" in df_long.columns else "scraped_year"
-    df_long["year_val"] = pd.to_numeric(df_long.get(year_col, datetime.now().year), errors="coerce").fillna(datetime.now().year).astype(int)
-
-    def make_date(row):
-        try:
-            m = int(row["month_num"]) if not pd.isna(row["month_num"]) else None
-            y = int(row["year_val"])
-            if m:
-                return pd.Timestamp(year=y, month=m, day=1)
-        except Exception:
-            pass
-        return pd.NaT
-
-    df_long["date"] = df_long.apply(make_date, axis=1)
-
-    # Filter 2-wheelers
-    if cat_col and cat_col in df_long.columns:
-        df_2w = df_long[df_long[cat_col].apply(is_two_wheeler)].copy()
-    else:
-        df_2w = df_long.copy()
-
-    # Drop zero / null registrations
-    df_2w = df_2w.dropna(subset=["registrations", "date"])
-    df_2w = df_2w[df_2w["registrations"] > 0]
-
-    # ── Deduplicate: same date + state + category can appear multiple times ──
-    # Keep the max value per group (avoids summing duplicates from multi-table scrape)
-    group_cols = [c for c in ["date", "state", "vehicle_category"] if c in df_2w.columns]
-    if group_cols:
-        df_2w = (df_2w.groupby(group_cols, as_index=False)["registrations"]
-                 .max())  # max avoids double-counting duplicates
-
-    # Rename columns
-    state_col = "_state" if "_state" in df_2w.columns else "state_filter"
-    rename_map = {
-        cat_col: "vehicle_category",
-        state_col: "state",
-        "registrations": "offline_registrations",
+    # Define correct month sequence per year based on observed data
+    CORRECT_2025_COLS = ["jan","feb","mar","apr","may","jun","jul","aug","sep","oct"]  # nov = YTD total, skip
+    CORRECT_2026_COLS_MAP = {
+        "month_wise": 1,  # Jan
+        "total":      2,  # Feb
+        "jan":        3,  # Mar
+        "feb":        4,  # Apr
+        "mar":        5,  # May
+        # "apr" = YTD total, skip
     }
-    df_final = df_2w.rename(columns={k: v for k, v in rename_map.items() if k in df_2w.columns})
 
-    keep = ["date", "state", "vehicle_category", "offline_registrations"]
-    keep = [c for c in keep if c in df_final.columns]
-    df_final = df_final[keep].sort_values("date").reset_index(drop=True)
+    all_rows = []
+
+    # ── 2025: standard columns jan-oct (nov is YTD total) ────────────────
+    grp2025 = df[df["_year"] == 2025]
+    for _, row in grp2025.iterrows():
+        for mc in CORRECT_2025_COLS:
+            if mc not in df.columns:
+                continue
+            val = clean_number(row.get(mc))
+            if pd.isna(val) or val <= 0:
+                continue
+            month_num = MONTH_MAP.get(mc)
+            if not month_num:
+                continue
+            all_rows.append({"date": pd.Timestamp(year=2025, month=month_num, day=1),
+                              "registrations": val})
+
+    # ── 2026: columns are shifted — use explicit mapping ─────────────────
+    # Due to scraper offset, actual month data is in these columns:
+    # month_wise=Jan, total=Feb, jan=Mar, feb=Apr, mar=May (apr=YTD total, skip)
+    grp2026 = df[df["_year"] == 2026]
+    CORRECT_2026_COLS_MAP = {
+        "month_wise": 1,  # Jan 2026
+        "total":      2,  # Feb 2026
+        "jan":        3,  # Mar 2026
+        "feb":        4,  # Apr 2026
+        "mar":        5,  # May 2026
+        # "apr" = YTD total, skip
+    }
+    for _, row in grp2026.iterrows():
+        for col, month_num in CORRECT_2026_COLS_MAP.items():
+            val = clean_number(row.get(col))
+            if pd.isna(val) or val <= 0:
+                continue
+            all_rows.append({"date": pd.Timestamp(year=2026, month=month_num, day=1),
+                              "registrations": val})
+
+    if not all_rows:
+        print("[WARN] No valid rows after processing")
+        return pd.DataFrame()
+
+    df_long = pd.DataFrame(all_rows)
+
+    # ── Aggregate: sum all 2-wheeler sub-categories per month ────────────
+    df_monthly = df_long.groupby("date", as_index=False)["registrations"].sum()
+    df_monthly = df_monthly.rename(columns={"registrations": "offline_registrations"})
 
     # Derived columns
-    df_final["year"] = df_final["date"].dt.year
-    df_final["month"] = df_final["date"].dt.month
-    df_final["month_name"] = df_final["date"].dt.strftime("%b %Y")
-    # Daily average: monthly registrations / 26 working days
-    df_final["daily_avg_offline"] = (df_final["offline_registrations"] / 26).round(0).astype(int)
-
-    # ── Aggregate to monthly totals (sum NT + T + Invalid Carriage) ───────
-    agg_cols = [c for c in ["date", "state", "year", "month", "month_name"] if c in df_final.columns]
-    df_monthly = (df_final.groupby(agg_cols, as_index=False)["offline_registrations"]
-                  .sum())
+    df_monthly["year"]              = df_monthly["date"].dt.year
+    df_monthly["month"]             = df_monthly["date"].dt.month
+    df_monthly["month_name"]        = df_monthly["date"].dt.strftime("%b %Y")
     df_monthly["daily_avg_offline"] = (df_monthly["offline_registrations"] / 26).round(0).astype(int)
-    df_monthly["vehicle_category"] = "TWO WHEELER (ALL)"
-    df_final = df_monthly
+    df_monthly["vehicle_category"]  = "TWO WHEELER (ALL)"
+
+    df_final = df_monthly.sort_values("date").reset_index(drop=True)
 
     Path(out_path).parent.mkdir(exist_ok=True)
     df_final.to_csv(out_path, index=False)
